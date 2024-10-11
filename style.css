@@ -284,11 +284,87 @@ h2 {
 #modalCarrinho{
 
     background-color: rgb(204, 204, 204);
-    width: 38%;
+    width: 30%;
     height: 100%;
     border: none;
     position: fixed;
-    left: 60%;
+    left: 68%;
     top: 27%;
 }
 
+#modalCarrinho::backdrop{
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tituloCarrinho{
+
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid;
+    padding-bottom: 15px;
+}
+
+#fecharCarrinho{
+
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+
+    transition: transform 0.5s;
+    transform: translateX(0) scale(0.95);
+
+}
+
+#fecharCarrinho:hover{
+
+    cursor: pointer;
+    transform: translateX(0) scale(1.05);
+}
+
+.itensCarrinhoFlex{
+
+    display: flex;
+}
+
+.produtosCarrinhoModal1{
+
+    background-color: white;
+    width: 28%;
+    height: 25%;
+}
+.produtosCarrinhoModal2{
+
+    background-color: white;
+    width: 28%;
+    height: 25%;
+}
+.produtosCarrinhoModal3{
+
+    background-color: white;
+    width: 28%;
+    height: 25%;
+}
+.produtosCarrinhoModal4{
+
+    background-color: white;
+    width: 28%;
+    height: 25%;
+}
+.produtosCarrinhoModal5{
+
+    background-color: white;
+    width: 28%;
+    height: 25%;
+}
+.produtosCarrinhoModal6{
+
+    background-color: white;
+    width: 28%;
+    height: 25%;
+}
